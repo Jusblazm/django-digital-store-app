@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     # my apps
+    'cart.apps.CartConfig',
     'shop.apps.ShopConfig',
 
     # default django apps
