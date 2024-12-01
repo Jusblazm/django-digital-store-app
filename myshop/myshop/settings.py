@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # my apps
     'cart.apps.CartConfig',
+    'coupons.apps.CouponsConfig',
     'orders.apps.OrdersConfig',
     'payment.apps.PaymentConfig',
     'shop.apps.ShopConfig',
